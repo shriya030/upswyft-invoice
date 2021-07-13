@@ -149,7 +149,7 @@ function InvoicePage() {
     <div>
     <PDFExport ref={pdfExportComponent} paperSize="A4">
       <div className="invoice-wrapper">
-
+      <h1 style={{textAlign: "center", fontSize: "2.5rem"}}>Purchase Order</h1>
         <div className="flex" pdfMode={invoice.pdfMode}>
           <div className="w-50" pdfMode={invoice.pdfMode}>
             <EditableInput
@@ -186,7 +186,7 @@ function InvoicePage() {
           </div>
           <div className="w-50" pdfMode={invoice.pdfMode}>
             <input
-              className="fs-45 right bold span"
+              className=" right bold span"
               style={{color: "black"}}
                 placeholder="Invoice"
                 type="file"
