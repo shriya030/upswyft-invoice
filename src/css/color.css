@@ -1,0 +1,27 @@
+.dark {
+  color: var(--color-dark);
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-dark {
+  background-color: var(--color-dark-2);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+
+.bg-red {
+  background-color: var(--color-red);
+}
+
+.bg-green {
+  background-color: var(--color-green);
+}
